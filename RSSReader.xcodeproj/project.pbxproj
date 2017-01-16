@@ -13,6 +13,9 @@
 		848496551E2D8C67002F4844 /* RSSReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848496531E2D8C67002F4844 /* RSSReader.xcdatamodeld */; };
 		848496571E2D8C67002F4844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848496561E2D8C67002F4844 /* Assets.xcassets */; };
 		8484965A1E2D8C67002F4844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848496581E2D8C67002F4844 /* LaunchScreen.storyboard */; };
+		848496641E2D8C92002F4844 /* FeedItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848496611E2D8C92002F4844 /* FeedItemViewController.swift */; };
+		848496651E2D8C92002F4844 /* FeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848496621E2D8C92002F4844 /* FeedListViewController.swift */; };
+		848496661E2D8C92002F4844 /* XmlParserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848496631E2D8C92002F4844 /* XmlParserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		848496561E2D8C67002F4844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848496591E2D8C67002F4844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8484965B1E2D8C67002F4844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848496611E2D8C92002F4844 /* FeedItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItemViewController.swift; sourceTree = "<group>"; };
+		848496621E2D8C92002F4844 /* FeedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedListViewController.swift; sourceTree = "<group>"; };
+		848496631E2D8C92002F4844 /* XmlParserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlParserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		8484964B1E2D8C67002F4844 /* RSSReader */ = {
 			isa = PBXGroup;
 			children = (
+				848496611E2D8C92002F4844 /* FeedItemViewController.swift */,
+				848496621E2D8C92002F4844 /* FeedListViewController.swift */,
+				848496631E2D8C92002F4844 /* XmlParserManager.swift */,
 				8484964C1E2D8C67002F4844 /* AppDelegate.swift */,
 				8484964E1E2D8C67002F4844 /* ViewController.swift */,
 				848496501E2D8C67002F4844 /* Main.storyboard */,
@@ -140,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				848496551E2D8C67002F4844 /* RSSReader.xcdatamodeld in Sources */,
+				848496641E2D8C92002F4844 /* FeedItemViewController.swift in Sources */,
+				848496661E2D8C92002F4844 /* XmlParserManager.swift in Sources */,
+				848496651E2D8C92002F4844 /* FeedListViewController.swift in Sources */,
 				8484964F1E2D8C67002F4844 /* ViewController.swift in Sources */,
 				8484964D1E2D8C67002F4844 /* AppDelegate.swift in Sources */,
 			);
